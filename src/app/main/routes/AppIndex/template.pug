@@ -1,2 +1,11 @@
 .route.route-index
   h1 RxJS Examples
+  ul
+    li
+      a(ng-link="['AppIndexNone']") Go away
+    li
+      a(ng-link="['Example01BindButton']") Example 01: Bind Button
+    li
+      a(ng-link="['Example02DragAndDrop']") Example 02: Drag and Drop
+
+  ng-outlet

@@ -1,1 +1,1 @@
-export const ANGULARIZED_DEBUG_ENABLED = window.location.hostname === '127.0.0.1';
+export const ANGULARIZED_DEBUG_ENABLED = false;
